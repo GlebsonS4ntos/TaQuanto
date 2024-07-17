@@ -1,0 +1,6 @@
+@TaQuanto.Api_HostAddress = http://localhost:5082
+
+GET {{TaQuanto.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
