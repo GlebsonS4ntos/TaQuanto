@@ -3,9 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{EB49691D-5B7B-400B-96A8-5F3D27C3CE43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{F810099E-6B18-479D-9ED1-99D7A7AC9262}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{B1354A4D-5062-482E-8905-223C67E3DB99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{F7E957AA-0874-4DE5-8543-5AF6774E0260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaQuanto.Api", "src\TaQuanto.Api\TaQuanto.Api.csproj", "{2830FDAC-325F-4DC3-98FD-3BB9A375FB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaQuanto.Service", "src\TaQuanto.Service\TaQuanto.Service.csproj", "{BDE48F26-7C5A-4C39-8E60-59E3C25F9189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaQuanto.Domain", "src\TaQuanto.Domain\TaQuanto.Domain.csproj", "{5BCC38C3-FCC1-4788-BBD2-B6F0802F6DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaQuanto.Infra", "src\TaQuanto.Infra\TaQuanto.Infra.csproj", "{771F9CE7-8A23-4073-ACC4-9EF6F4D6E568}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2830FDAC-325F-4DC3-98FD-3BB9A375FB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2830FDAC-325F-4DC3-98FD-3BB9A375FB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2830FDAC-325F-4DC3-98FD-3BB9A375FB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2830FDAC-325F-4DC3-98FD-3BB9A375FB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE48F26-7C5A-4C39-8E60-59E3C25F9189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE48F26-7C5A-4C39-8E60-59E3C25F9189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE48F26-7C5A-4C39-8E60-59E3C25F9189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE48F26-7C5A-4C39-8E60-59E3C25F9189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCC38C3-FCC1-4788-BBD2-B6F0802F6DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCC38C3-FCC1-4788-BBD2-B6F0802F6DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCC38C3-FCC1-4788-BBD2-B6F0802F6DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCC38C3-FCC1-4788-BBD2-B6F0802F6DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771F9CE7-8A23-4073-ACC4-9EF6F4D6E568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771F9CE7-8A23-4073-ACC4-9EF6F4D6E568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771F9CE7-8A23-4073-ACC4-9EF6F4D6E568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771F9CE7-8A23-4073-ACC4-9EF6F4D6E568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2830FDAC-325F-4DC3-98FD-3BB9A375FB7F} = {EB49691D-5B7B-400B-96A8-5F3D27C3CE43}
+		{BDE48F26-7C5A-4C39-8E60-59E3C25F9189} = {F810099E-6B18-479D-9ED1-99D7A7AC9262}
+		{5BCC38C3-FCC1-4788-BBD2-B6F0802F6DB0} = {B1354A4D-5062-482E-8905-223C67E3DB99}
+		{771F9CE7-8A23-4073-ACC4-9EF6F4D6E568} = {F7E957AA-0874-4DE5-8543-5AF6774E0260}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2143532C-E764-4720-A74F-8705C44C16C6}
