@@ -1,4 +1,5 @@
 using TaQuanto.Infra.Helpers;
+using TaQuanto.Service.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfra(builder.Configuration);
+builder.Services.AddService(builder.Configuration);
 
 var app = builder.Build();
 

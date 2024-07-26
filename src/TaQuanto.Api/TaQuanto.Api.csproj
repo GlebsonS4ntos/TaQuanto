@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaQuanto.Infra\TaQuanto.Infra.csproj" />
+    <ProjectReference Include="..\TaQuanto.Service\TaQuanto.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
